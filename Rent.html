@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+    <title>FAST Tour&Travel's</title>
+    <style>
+        .navbar ul li a {
+            font-size: larger;
+            font-weight: 600;
+            text-transform: capitalize;
+            letter-spacing: 2px;
+            color: #f4b200;
+        }
+
+        .car-area {
+            position: relative;
+        }
+
+        .car-content {
+            padding: 20px 15px 10px 15px;
+        }
+
+        .car-content p {
+            margin: 8px 0;
+            color: #f4b200;
+            font-weight: 500;
+        }
+
+        .car-info-list {
+            margin-top: 10px;
+        }
+
+        .car-info-list li {
+            display: inline;
+        }
+
+        .car-info-list i {
+            color: #f4b200;
+        }
+
+        .car-bottom {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-top: 1px solid rgba(0, 0, 0, .05);
+            margin-top: 20px;
+            padding-top: 13px;
+        }
+
+        .car-price-amount {
+            color: #f4b200;
+            font-weight: 700;
+            font-size: 19px;
+        }
+
+        .car-price-type {
+            font-size: 14px;
+            font-weight: 500;
+            color: #f4b200;
+        }
+
+        .button:hover {
+            background-color: black;
+        }
+
+        .refund:hover {
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand  col-xl-2 col-lg-2"><img id="MDB-logo" src="img/logo.png" alt=".logo"
+                        height="50" /></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar" style="margin-left: 10%;">
+                    <ul class="navbar-nav me-auto d-flex flex-row mt-3 mt-lg-0">
+                        <li class="nav-item text-center mx-2 mx-lg-1 col-xl-6 col-lg-6">
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown text-center mx-2 mx-lg-1  col-xl-6 col-lg-6">
+                            <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">Services</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="Packages.html">Packages</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li><a class="dropdown-item" href="Rent.html" style=" color: #c49004;">Rent a Car</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item text-center mx-2 mx-lg-1 col-xl-8 col-lg-8">
+                            <a class="nav-link" aria-current="page" href="Info.html">Information
+                                Desk</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="sptb bg-white mb-5">
+        <div class="container">
+            <div class="section-title center-block text-center"> <span class="heading-style text-secondary">Our</span>
+                <h2>Transport Facilites</h2>
+            </div>
+            <div class="row">
+                <div class="col-xl-4 col-lg-4">
+                    <div class="card overflow-hidden">
+                        <div class="item-card8-img  br-te-4 br-ts-4 relative"> <img loading="lazy" src="img/car-1.jpg"
+                                alt="img" class="cover-image" style="width: 100%;">
+                        </div>
+                        <div class="card-body">
+                            <div class="item-det">
+                                <h4 class="mb-1 fs-16 font-weight-bold">Toyota
+                                    Corolla</h4>
+                                <div class="ms-auto">
+                                    <div class="fs-20 font-weight-bold">$62 <small class="fs-14">/ Day</small></div>
+                                </div>
+                                <p class="fs-12">
+                                <p>25/B Milford Road, New York</p>
+                                <ul class="car-info-list">
+                                    <li>Model: 2022</li>
+                                    <li>4 People</li>
+                                    <li>Hybrid</li>
+                                    <li>Automatic</li>
+                                </ul>
+                                </p>
+                                <p class="bottom-area d-flex justify-content-center">
+                                    <button class="button btn btn-light btn-outline-warning"><a href="Rent.html"
+                                            style="text-decoration: none; color: #f4b200;">Explore More</a></button>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4">
+                    <div class="card overflow-hidden">
+                        <div class="item-card8-img  br-te-4 br-ts-4 relative"> <img loading="lazy" src="img/car-2.jpg"
+                                alt="img" class="cover-image" style="width: 100%;">
+                        </div>
+                        <div class="card-body">
+                            <div class="item-det">
+                                <h4 class="mb-1 fs-16 font-weight-bold">Suzuki Alto</h4>
+                                <div class="ms-auto">
+                                    <div class="fs-20 font-weight-bold">$62 <small class="fs-14">/ Day</small></div>
+                                </div>
+                                <p class="fs-12">
+                                <p>25/B Milford Road, New York</p>
+                                <ul class="car-info-list">
+                                    <li>Model: 2022</li>
+                                    <li>4 People</li>
+                                    <li>Hybrid</li>
+                                    <li>Automatic</li>
+                                </ul>
+                                </p>
+                                <p class="bottom-area d-flex justify-content-center">
+                                    <button class="button btn btn-light btn-outline-warning"><a href="Rent.html"
+                                            style="text-decoration: none; color: #f4b200;">Explore More</a></button>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4">
+                    <div class="card overflow-hidden">
+                        <div class="item-card8-img  br-te-4 br-ts-4 relative"> <img loading="lazy" src="img/car-3.jpg"
+                                alt="img" class="cover-image" style="width: 100%;">
+                        </div>
+                        <div class="card-body">
+                            <div class="item-det">
+                                <h4 class="mb-1 fs-16 font-weight-bold">Suzuki Swift</h4>
+                                <div class="ms-auto">
+                                    <div class="fs-20 font-weight-bold">$62 <small class="fs-14">/ Day</small></div>
+                                </div>
+                                <p class="fs-12">
+                                <p>25/B Milford Road, New York</p>
+                                <ul class="car-info-list">
+                                    <li>Model: 2022</li>
+                                    <li>4 People</li>
+                                    <li>Hybrid</li>
+                                    <li>Automatic</li>
+                                </ul>
+                                </p>
+                                <p class="bottom-area d-flex justify-content-center">
+                                    <button class="button btn btn-light btn-outline-warning"><a href="Rent.html"
+                                            style="text-decoration: none; color: #f4b200;">Explore More</a></button>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-xl-4 col-lg-4">
+                    <div class="card overflow-hidden">
+                        <div class="item-card8-img  br-te-4 br-ts-4 relative"> <img loading="lazy" src="img/car-4.jpg"
+                                alt="img" class="cover-image" style="width: 100%;">
+                        </div>
+                        <div class="card-body">
+                            <div class="item-det">
+                                <h4 class="mb-1 fs-16 font-weight-bold">Honda Civic</h4>
+                                <div class="ms-auto">
+                                    <div class="fs-20 font-weight-bold">$62 <small class="fs-14">/ Day</small></div>
+                                </div>
+                                <p class="fs-12">
+                                <p>25/B Milford Road, New York</p>
+                                <ul class="car-info-list">
+                                    <li>Model: 2022</li>
+                                    <li>4 People</li>
+                                    <li>Hybrid</li>
+                                    <li>Automatic</li>
+                                </ul>
+                                </p>
+                                <p class="bottom-area d-flex justify-content-center">
+                                    <button class="button btn btn-light btn-outline-warning"><a href="Rent.html"
+                                            style="text-decoration: none; color: #f4b200;">Explore More</a></button>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4">
+                    <div class="card overflow-hidden">
+                        <div class="item-card8-img  br-te-4 br-ts-4 relative"> <img loading="lazy" src="img/car-5.jpg"
+                                alt="img" class="cover-image" style="width: 100%;">
+                        </div>
+                        <div class="card-body">
+                            <div class="item-det">
+                                <h4 class="mb-1 fs-16 font-weight-bold">Toyota Yaris</h4>
+                                <div class="ms-auto">
+                                    <div class="fs-20 font-weight-bold">$62 <small class="fs-14">/ Day</small></div>
+                                </div>
+                                <p class="fs-12">
+                                <p>25/B Milford Road, New York</p>
+                                <ul class="car-info-list">
+                                    <li>Model: 2022</li>
+                                    <li>4 People</li>
+                                    <li>Hybrid</li>
+                                    <li>Automatic</li>
+                                </ul>
+                                </p>
+                                <p class="bottom-area d-flex justify-content-center">
+                                    <button class="button btn btn-light btn-outline-warning"><a href="Rent.html"
+                                            style="text-decoration: none; color: #f4b200;">Explore More</a></button>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4">
+                    <div class="card overflow-hidden">
+                        <div class="item-card8-img  br-te-4 br-ts-4 relative"> <img loading="lazy" src="img/car-6.jpg"
+                                alt="img" class="cover-image" style="width: 100%;">
+                        </div>
+                        <div class="card-body">
+                            <div class="item-det">
+                                <h4 class="mb-1 fs-16 font-weight-bold">Honda City</h4>
+                                <div class="ms-auto">
+                                    <div class="fs-20 font-weight-bold">$62 <small class="fs-14">/ Day</small></div>
+                                </div>
+                                <p class="fs-12">
+                                <p>25/B Milford Road, New York</p>
+                                <ul class="car-info-list">
+                                    <li>Model: 2022</li>
+                                    <li>4 People</li>
+                                    <li>Hybrid</li>
+                                    <li>Automatic</li>
+                                </ul>
+                                </p>
+                                <p class="bottom-area d-flex justify-content-center">
+                                    <button class="button btn btn-light btn-outline-warning"><a href="Rent.html"
+                                            style="text-decoration: none; color: #f4b200;">Explore More</a></button>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="bottom-area my-5" style="width: 0; margin: auto;">
+        <button class="refund btn btn-lg btn-outline-danger"><a href="Refund.html"
+                style="text-decoration: none; color: red;">Refund</a></button>
+    </div>
+
+    <footer id="footer" class="footer-1 bg-dark text-light">
+        <div class="main-footer widgets-dark typo-light">
+            <div class="container">
+                <div class="footer-copyright">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <p>Copyright FAST Tour&Travel's © 2023. All rights reserved.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
